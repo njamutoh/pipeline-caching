@@ -1,6 +1,6 @@
 # pipeline-caching
 
-````markdown
+
 # NPM Pipeline Caching Lab
 
 This is a small DevOps lab created to practice dependency caching in a CI/CD pipeline using GitHub Actions and npm.
