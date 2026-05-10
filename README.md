@@ -7,7 +7,7 @@ This is a small DevOps lab created to illustrate dependency caching in a CI/CD p
 
 ## Purpose of the Lab
 
-The goal of this project is to understand how pipeline caching helps reduce build time by reusing previously downloaded dependencies instead of downloading them from scratch on every pipeline run.
+The goal of this project is to show how pipeline caching helps reduce build time by reusing previously downloaded dependencies instead of downloading them from scratch on every pipeline run.
 
 In real CI/CD environments, dependency installation can become slow, especially when applications have many packages. Caching helps make builds faster, more reliable, and more efficient.
 
