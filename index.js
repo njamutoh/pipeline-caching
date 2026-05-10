@@ -24,7 +24,7 @@ const formattedUsers = users.map(formatUser);
 
 const groupedByRole = _.groupBy(formattedUsers, "role");
 
-console.log("Pipeline Caching Lab");
+console.log("Pipeline Caching Lab - Cache Test");
 console.log("====================");
 console.log(`Total users: ${formattedUsers.length}`);
 console.log("");
