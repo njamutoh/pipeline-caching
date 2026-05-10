@@ -100,7 +100,7 @@ Same package-lock.json = cache can be reused
 Changed package-lock.json = cache key changes
 ```
 
-## What I Observed
+## Observation
 
 On the first pipeline run, GitHub Actions did not have an existing npm cache, so dependencies were installed normally.
 
