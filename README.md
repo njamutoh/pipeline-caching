@@ -120,9 +120,9 @@ npm ci
 
 But caching helps npm retrieve dependencies faster because previously downloaded packages are already available in the runner’s cache.
 
-## Interview Summary
+## Summary
 
-In a CI/CD pipeline, I can implement npm dependency caching by using the CI platform’s native cache mechanism. In GitHub Actions, `actions/setup-node` supports npm caching through `cache: npm`. The cache is usually tied to the dependency lock file, such as `package-lock.json`, so the pipeline can reuse cached dependencies when the dependency set has not changed and refresh the cache when it has changed.
+In a CI/CD pipeline, one can implement npm dependency caching by using the CI platform’s native cache mechanism. In GitHub Actions, `actions/setup-node` supports npm caching through `cache: npm`. The cache is usually tied to the dependency lock file, such as `package-lock.json`, so the pipeline can reuse cached dependencies when the dependency set has not changed and refresh the cache when it has changed.
 
 ```
 ```
